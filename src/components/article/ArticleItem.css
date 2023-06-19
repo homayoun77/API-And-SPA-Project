@@ -1,0 +1,46 @@
+.cards{
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.cards:hover{
+    scale: 1.05;
+}
+.body, .footer{
+    padding: 0 15px;
+}
+.footer{
+    border-top: 1px solid silver;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #666;
+}
+.cards .body .title{
+    font-size: 1.4rem;
+    padding-top: 20px;
+}
+.cards .body .desc{
+    text-align: justify;
+    color: #5d5c5c;
+}
+.read-more{
+    margin: 20px 0;
+    cursor: pointer;
+}
+.read-more:hover{
+    color: #f54980;
+}
+.read-more span{
+    margin-left: 5px;
+}
+.head img{
+    width: 300px;
+}
+.cards a{
+    text-decoration: none;
+    color: #5d5c5c;
+}
